@@ -1,10 +1,10 @@
-package dio.course.eventdrivenwithkafka;
+package diocourse.producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EventDrivenWithKafkaApplicationTests {
+class ProducerApplicationTests {
 
     @Test
     void contextLoads() {

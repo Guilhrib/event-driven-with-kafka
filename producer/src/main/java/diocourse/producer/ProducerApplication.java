@@ -1,4 +1,4 @@
-package dio.course.eventdrivenwithkafka;
+package diocourse.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,8 @@ import org.springframework.kafka.annotation.EnableKafka;
 
 @SpringBootApplication
 @EnableKafka
-public class EventDrivenWithKafkaApplication {
-
+public class ProducerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EventDrivenWithKafkaApplication.class, args);
+        SpringApplication.run(ProducerApplication.class, args);
     }
-
 }
